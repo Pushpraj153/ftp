@@ -1,2 +1,26 @@
-ftp
-===
+This repo contain the c++ implementation of ftp server and client.
+
+
+Working Instruction..........
+-----------------------------------------------
+
+
+Installation
+---------------------------------------------
+type$ make
+
+
+Uninstallation
+-------------------------------------------------------
+type$ make clean
+
+
+Running server
+--------------------------------------------------------
+$ ./server [port no]   eg.  $ ./server 4455
+
+
+Running client
+-------------------------------------------------------
+$ ./client [hostname] [port no]  eg.  ./client 127.0.0.1 4455
+ 
